@@ -1,0 +1,169 @@
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container-fluid {
+    max-width: 1600px;
+}
+
+header {
+    min-height: 100vh;
+    background-image: url('images/bg-header-desktop.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text {
+    max-width: 625px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+.btn {
+    padding: 0.75em 2em;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.ios-btn {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 5px 20px hsl(171, 66%, 44%);
+}
+
+.mac-btn {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.btn:hover {
+    color: white;
+}
+
+.main-row + .main-row {
+    margin-top: 8em;
+}
+
+.snippets-text {
+    max-width: 700px;
+}
+
+.feat p {
+    max-width: 400px;
+}
+
+.access-sect p {
+    max-width: 700px;
+    margin-bottom: 4em;
+}
+
+.work-card p {
+    max-width: 375px;
+}
+
+.clipboard-sect p {
+    max-width: 700px;
+}
+
+footer {
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 8rem;
+}
+
+.footer-logo {
+    transform: scale(0.5);
+}
+
+.footer-links {
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    transition: all 0.15s ease-in;
+}
+
+.footer-links:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.social-icon {
+    text-decoration: none;
+}
+
+.social-icon + .social-icon {
+    margin-left: 1em;
+}
+
+.social-path {
+    transition: all 0.15s ease-in;
+}
+
+.social-icon:hover .social-path {
+    fill: hsl(171, 66%, 44%);
+}
+
+.super-sect {
+    margin-bottom: 10em;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        width: 75%;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    
+    .ios-btn {
+        background-color: hsl(171, 66%, 44%);
+        box-shadow: 0px 5px 20px hsl(171, 66%, 44%);
+    }
+    
+    .mac-btn {
+        background-color: hsl(233, 100%, 69%);
+    }
+}
+
+@media (max-width: 991px) {
+    .logo-foot {
+        margin-bottom: 1em;
+    }
+
+    .links-foot {
+        margin-bottom: 2em;
+    }
+
+    .footer-links {
+        margin-bottom: 1.15em;
+    }
+
+    .company {
+        margin: 0 2em 3em 2em;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo-foot {
+        margin-right: 6em;
+    }
+    
+    .social-foot {
+        margin-left: auto;
+    }
+
+    .foot-box  {
+        margin-right: 5em;
+    }
+
+    .feats-sect {
+        padding-left: 5em;
+    }
+}
